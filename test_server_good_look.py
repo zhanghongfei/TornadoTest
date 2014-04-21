@@ -1,4 +1,9 @@
 #coding: utf-8
+'''
+    阻塞式回应
+    当请求 /sleep 之后马上请求 /justnow 时
+    往往需要等待/sleep 返回结果后 /justnow 才相应
+'''
 
 import time
 
